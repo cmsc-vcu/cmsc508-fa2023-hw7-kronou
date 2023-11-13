@@ -1,1 +1,22 @@
-# cmsc508-fa2023-hw7-template
+# Homework 5 - Creating a Resume Database
+Rachel Farzan
+2023-11-12
+
+## Homework Description
+
+In homework 7, I was given a prompt for a database, with which I created
+an ER diagram, created the database in MySQL, added data to the
+database, and asked the database queries.
+
+The hw7 folder contains the 2 files I edited for this homework.
+
+hw7-ddl.sql is the sql file where I created the database and added data
+to it. The database keeps track of employee information, as well as
+skills and roles needed by a company. This information can then be used
+to construct resumes and search for people based on these roles and
+skills.
+
+hw7.qmd (and hw7.html) is the report for this homework, where I
+constructed a crow’s foot diagram and connected to the database to ask
+it queries. Some of these queries were more simple (i.e. just listing
+data), while others involved more complex relational algebra.
